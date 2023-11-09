@@ -163,15 +163,12 @@ img {
   outline: 50px;
   border-radius: 10px;
 }
-.photo {
- padding: 1em;
-}
 
-.hero { 
-  height: 65vh;
-  width: 100%;
-  margin: 0;
-  border-radius: 0;
+.column {
+  column-gap: 5px;
+}
+.photo {
+  margin: 2px;
 }
 
 body {
@@ -181,18 +178,13 @@ body {
   padding: 0%;
 }
 
-.container {
-  position: relative;
-  text-align: center;
-  margin: 0%;
-  padding: 10%;
-}
 /* sections */
 
 footer {
   text-align: center;
   padding: 5%;
   background-color: var(--accent);
+  color: var(--text);
 }
 
 section {
@@ -201,18 +193,35 @@ section {
   margin-bottom: 15px;
 }
 
-/* text */
+/* Hero */
 
-h1 {
-  font-family: 'Cinzel Decorative', sans-serif !important;
+.hero { 
+  height: 65vh;
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  margin: 0%;
+}
+
+.normal {
   position:absolute;
-  margin-left: 10%;
-  font-size: 50px;
-  font-weight: bolder;
-  text-align: left;
   top: 50%;
   left: 35%;
   transform: translate(-50%, -50%);
+}
+
+/* text */
+h1 {
+  font-family: 'Cinzel Decorative', sans-serif !important;
+  margin-left: 5px;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: left;
 }
 
 h2 {
