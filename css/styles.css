@@ -156,15 +156,22 @@ main {
 }
 
 img {
-  grid-row: 2;
+  display: flex;
+  justify-content: flex-start;
   height: 10%;
-  width: 40%;
+  width: 100%;
   outline: 50px;
+  border-radius: 10px;
+}
+.photo {
+ padding: 1em;
 }
 
 .hero { 
   height: 65vh;
   width: 100%;
+  margin: 0;
+  border-radius: 0;
 }
 
 body {
@@ -178,23 +185,27 @@ body {
   position: relative;
   text-align: center;
   margin: 0%;
+  padding: 10%;
 }
 /* sections */
 
 footer {
   text-align: center;
-  margin: 5%;
+  padding: 5%;
+  background-color: var(--accent);
 }
 
 section {
   width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 /* text */
 
 h1 {
   font-family: 'Cinzel Decorative', sans-serif !important;
-  position: absolute;
+  position:absolute;
   margin-left: 10%;
   font-size: 50px;
   font-weight: bolder;
@@ -204,6 +215,12 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+h2 {
+  padding: 5px;
+}
+
 p {
   text-wrap: balance;
+  padding: 5px;
 }
+
