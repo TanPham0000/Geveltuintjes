@@ -166,6 +166,7 @@ img {
 
 .column {
   column-gap: 5px;
+  margin: 2px;
 }
 .photo {
   margin: 2px;
